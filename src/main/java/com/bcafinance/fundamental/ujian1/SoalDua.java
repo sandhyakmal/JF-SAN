@@ -29,12 +29,9 @@ public class SoalDua {
                if (tampung==1){
                    tampung=2;
                    strTampung += charVokal[rand.nextInt(5)];
-
-//                   System.out.print(strTampung);
                } else {
                    tampung=1;
                    strTampung += charKonso[rand.nextInt(22)];
-//                   System.out.print(charKonso[rand.nextInt(22)]);
                }
             } else {
                 strTampung += charSemua[rand.nextInt(26)];
