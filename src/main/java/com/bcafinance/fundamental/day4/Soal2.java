@@ -11,7 +11,7 @@ Version 1.0
 public class Soal2 {
     public static void main(String[] args) {
         int[] intVal = {66,77,80,84,88,99,100};
-        int intA = 66;
+        int intA = 77;
         int high = intVal.length-1;
         int med = 0;
         int low=0;
@@ -30,9 +30,9 @@ public class Soal2 {
                  high = med-1;
                 }
              }
-            if (status=false){
-                System.out.println(intA+" NOt Found!!");
-            }
+        }
+        if (status==false){
+            System.out.println(intA+" Not Found!!");
         }
     }
 }
