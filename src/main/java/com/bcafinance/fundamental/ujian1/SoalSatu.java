@@ -22,12 +22,13 @@ public class SoalSatu {
             try {
                 System.out.print("Masukan Angka Sepuasnya: ");
                 intNumber = sc.nextInt();
+                intTotal += intNumber;
                 isAgaian=true;
             } catch (Exception e){
-                intTotal += intNumber;
                 System.out.println("Jumlah "+intTotal);
                 isAgaian=false;
             }
         } while (isAgaian==true);
+
     }
 }
